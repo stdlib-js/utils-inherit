@@ -73,5 +73,9 @@
     "instance",
     "super",
     "parent"
-  ]
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
 }
