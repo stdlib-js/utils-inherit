@@ -1,4 +1,0 @@
-// Copyright (c) 2022 The Stdlib Authors. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
-/// <reference types="./index.d.ts" />
-import t from"https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-property@esm/index.mjs";import r from"https://cdn.jsdelivr.net/gh/stdlib-js/error-tools-fmtprodmsg@esm/index.mjs";var e=r;var o=function(t){var r=typeof t;return null===t||"object"!==r&&"function"!==r?new TypeError(e("0k5C1",t)):null},n=Object.create;function p(){}var i=t,f=r,s=o,u="function"==typeof n?n:function(t){return p.prototype=t,new p};var l=function(t,r){var e=s(t);if(e)throw e;if(e=s(r))throw e;if(void 0===r.prototype)throw new TypeError(f("0k5C0",r.prototype));return t.prototype=u(r.prototype),i(t.prototype,"constructor",{configurable:!0,enumerable:!1,writable:!0,value:t}),t};export{l as default};
-//# sourceMappingURL=index.mjs.map
