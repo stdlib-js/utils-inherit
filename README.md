@@ -30,32 +30,30 @@ limitations under the License.
 
 <!-- /.intro -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/utils-inherit
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-inherit = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-inherit@umd/browser.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-inherit@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.inherit;
-})();
-</script>
+var inherit = require( '@stdlib/utils-inherit' );
 ```
 
 #### inherit( ctor, superCtor )
@@ -103,13 +101,8 @@ inherit( Bar, Foo );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-inherit@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var inherit = require( '@stdlib/utils-inherit' );
 
 function Foo() {
     return this;
@@ -138,11 +131,6 @@ bool = ( bar instanceof Foo );
 
 bool = bar.beep();
 // returns 'boop'
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
