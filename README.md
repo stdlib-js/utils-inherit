@@ -41,43 +41,30 @@ limitations under the License.
 
 <!-- /.intro -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/utils-inherit
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-inherit = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-inherit@umd/browser.js' )
-```
-The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/utils-inherit/tags). For example,
-
-```javascript
-inherit = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-inherit@v0.1.1-umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var inherit = require( 'path/to/vendor/umd/utils-inherit/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-inherit@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.inherit;
-})();
-</script>
+var inherit = require( '@stdlib/utils-inherit' );
 ```
 
 #### inherit( ctor, superCtor )
@@ -125,13 +112,8 @@ inherit( Bar, Foo );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-inherit@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var inherit = require( '@stdlib/utils-inherit' );
 
 function Foo() {
     return this;
@@ -160,11 +142,6 @@ bool = ( bar instanceof Foo );
 
 bool = bar.beep();
 // returns 'boop'
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -218,8 +195,8 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/utils-inherit.svg
 [npm-url]: https://npmjs.org/package/@stdlib/utils-inherit
 
-[test-image]: https://github.com/stdlib-js/utils-inherit/actions/workflows/test.yml/badge.svg?branch=v0.1.1
-[test-url]: https://github.com/stdlib-js/utils-inherit/actions/workflows/test.yml?query=branch:v0.1.1
+[test-image]: https://github.com/stdlib-js/utils-inherit/actions/workflows/test.yml/badge.svg?branch=main
+[test-url]: https://github.com/stdlib-js/utils-inherit/actions/workflows/test.yml?query=branch:main
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/utils-inherit/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/utils-inherit?branch=main
