@@ -48,7 +48,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import inherit from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-inherit@esm/index.mjs';
+import inherit from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-inherit@v0.2.0-esm/index.mjs';
 ```
 
 #### inherit( ctor, superCtor )
@@ -102,7 +102,7 @@ inherit( Bar, Foo );
 <body>
 <script type="module">
 
-import inherit from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-inherit@esm/index.mjs';
+import inherit from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-inherit@v0.2.0-esm/index.mjs';
 
 function Foo() {
     return this;
