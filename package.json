@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/utils-inherit",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Implement prototypical inheritance by replacing the prototype of one constructor with the prototype of another constructor.",
   "license": "Apache-2.0",
   "author": {
@@ -35,12 +35,12 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/string-format": "^0.2.0",
+    "@stdlib/string-format": "^0.2.1",
     "@stdlib/utils-define-property": "^0.2.0"
   },
   "devDependencies": {
-    "@stdlib/assert-is-prototype-of": "^0.1.1",
-    "@stdlib/utils-get-prototype-of": "^0.1.1",
+    "@stdlib/assert-is-prototype-of": "^0.2.0",
+    "@stdlib/utils-get-prototype-of": "^0.2.0",
     "proxyquire": "^2.0.0",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
