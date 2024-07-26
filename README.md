@@ -48,7 +48,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import inherit from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-inherit@deno/mod.js';
+import inherit from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-inherit@v0.2.2-deno/mod.js';
 ```
 
 #### inherit( ctor, superCtor )
@@ -97,7 +97,7 @@ inherit( Bar, Foo );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import inherit from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-inherit@deno/mod.js';
+import inherit from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-inherit@v0.2.2-deno/mod.js';
 
 function Foo() {
     return this;
