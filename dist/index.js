@@ -1,4 +1,4 @@
-"use strict";var i=function(e,r){return function(){return r||e((r={exports:{}}).exports,r),r.exports}};var u=i(function(A,n){
+"use strict";var i=function(e,r){return function(){try{return r||e((r={exports:{}}).exports,r),r.exports}catch(t){throw (r=0, t)}};};var u=i(function(A,n){
 var m=require('@stdlib/error-tools-fmtprodmsg/dist');function q(e){var r=typeof e;return e===null||r!=="object"&&r!=="function"?new TypeError(m('1UTBE',e)):null;}n.exports=q
 });var c=i(function(P,a){
 a.exports=Object.create
